@@ -1,0 +1,13 @@
+option go_package = "/echo";
+
+service EchoService {
+	rpc Echo(Request) returns (Response);
+}
+
+message Request {
+	required string Message = 1;
+}
+
+message Response {
+	required string Message = 1;
+}
