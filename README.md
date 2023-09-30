@@ -6,8 +6,8 @@ This one actually works...
 
 ## Requirements
 
-go 		>= 1.18
-protoc 	>= 3
+- go 		>= 1.18
+- protoc 	>= 3
 
 ```bash
 brew install go
