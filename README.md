@@ -1,6 +1,7 @@
 # Simplest fRPC Example
 
-Contains the source code explained in the `Quick Start Guide` from https://frpc.io/getting-started/quick-start
+Contains the source code for the example explained in the [fRPC Quick Start Guide](https://frpc.io/getting-started/quick-start).
+This one actually works...
 
 
 ## Requirements
