@@ -30,6 +30,14 @@ export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 ```
 
+Ensure these variables are also present on every new shell session running the following code to change your shell rc file:
+
+```bash
+echo "export GOPATH=$HOME/go" >> $HOME/.zshrc
+echo "export GOBIN=$GOPATH/bin" >> $HOME/.zshrc
+echo "export PATH=$PATH:$GOBIN" >> $HOME/.zshrc
+```
+
 ## 1 - Install protoc-gen-go-frpc
 
 Install `protoc-gen-go-frpc` plugin running the following command:
