@@ -58,6 +58,8 @@ From the root of this project, run the following comand to generate the server a
 protoc --go-frpc_out=. echo.proto
 ```
 
+Verify that `echo/echo.frpc.go` was created in the root of the project. Open it and change `github.com/loopholelabs/polyglot-go` to `github.com/loopholelabs/polyglot` in the imports section, and save.
+
 ## 2 - Install project dependencies
 
 ```bash
