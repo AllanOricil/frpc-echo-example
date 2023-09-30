@@ -32,10 +32,15 @@ export PATH=$PATH:$GOBIN
 
 ## 1 - Install protoc-gen-go-frpc
 
-Install `protoc-gen-go-frpc` plugin
+Install `protoc-gen-go-frpc` plugin running the following command:
 
 ```bash
-$ go install github.com/loopholelabs/frpc-go/protoc-gen-go-frpc@latest
+go install github.com/loopholelabs/frpc-go/protoc-gen-go-frpc@latest
+```
+
+Verify the package was installed correctly running the following command:
+
+```bash
 which protoc-gen-go-frpc
 ```
 
